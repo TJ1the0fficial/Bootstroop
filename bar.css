@@ -1,0 +1,63 @@
+.navigational_panel {
+    
+    left: 50%; /* set the position to the middle of the screen*/
+    transform: translateX(-50%); /* set back it's size's half*/
+    position: fixed; /* stay on top of the screen*/
+
+    background-color: rgba(0, 195, 255, 0.63);
+
+    border-radius: 20px;
+
+}
+
+#panel {
+
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+
+    transition: 1s;
+
+}
+
+#panel:hover {
+
+    padding: 50px;
+
+    transition: 1s;
+
+}
+
+.buttons {
+
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 5px;
+
+    border-radius: 15px;
+
+    transition: 1s;
+
+}
+
+.buttons:hover {
+
+    transition: 1s;
+
+    background-color: rgba(0, 0, 0, 0.205);
+    color: aquamarine;
+
+}
+
+#code {
+
+    background-color: black;
+    border-radius: 300px;
+
+}
+
+#code blockquote{
+
+    color: rgb(255, 255, 255);
+
+}
